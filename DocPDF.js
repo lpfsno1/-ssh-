@@ -1,7 +1,7 @@
 /*
 Surge 3+:
 [Script]
-http-response ^https:\/\/license\.pdfexpert\.com\/api\/.*\/(documents|pdfexpert6)\/subscription\/(refresh$|check$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lpfsno1/Script/master/Surge/JS/Documents%26PDFExpert.subscription.js
+http-response ^https:\/\/license\.pdfexpert\.com\/api\/.*\/(documents|pdfexpert6)\/subscription\/(refresh$|check$) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/lpfsno1/record/master/DocPDF.js
 [MITM]
 hostname = license.pdfexpert.com
 */
